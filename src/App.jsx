@@ -1,4 +1,6 @@
 import Home from "./components/Home";
+import Highlight from "./components/Highlight";
+
 const App = () => {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 py-8 px-4 ">
@@ -10,9 +12,9 @@ const App = () => {
                     Upload your Image and let AI enhance to in seconds!
                 </p>
             </div>
-
+            <Highlight />
             <Home />
-
+            
             <div className="text-sm text-gray-500 mt-6">
                 Powered By @ShashankJohri
             </div>
