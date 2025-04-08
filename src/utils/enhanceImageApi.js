@@ -1,6 +1,5 @@
 import axios from "axios";
-
-const API_KEY = "wxc10czwgqq9f6wsv"; // Replace with your actual API key
+const API_KEY = "wxc10czwgqq9f6wsv";
 const BASE_URL = "https://techhk.aoscdn.com/";
 const MAXIMUM_RETRIES = 20;
 
